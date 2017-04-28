@@ -10,7 +10,6 @@
   "typings": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "gulp publish",
     "serve": "concurrently --kill-others \"webpack-dev-server --config playground/webpack.js\" \"gulp dev\""
   },
   "keywords": [
